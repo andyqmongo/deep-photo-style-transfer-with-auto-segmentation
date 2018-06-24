@@ -30,10 +30,10 @@ python3 inference.py --img-path <path to content img> --model "pspnet" --isStyle
 ```
 3. Run deep photo style transfer
 ```
-python deep_photostyle.py --content_image_path <path_to_content_image> --style_image_path <path_to_style_image> --content_seg_path <path_to_content_segmentation> --style_seg_path <path_to_style_segmentation> --style_option 2
+python deep_photostyle.py --content_image_path <path_to_content_image> --style_image_path <path_to_style_image> --content_seg_path <path_to_content_segmentation> --style_seg_path <path_to_style_segmentation> --style_option 2 --serial <output path>
 ```
 ## Alternative way to run
 Working....
 ```
-python3 combine.py --content_image_path <path_to_content_image> --style_image_path <path_to_style_image>
+python3 combine.py --content_image_path <path_to_content_image> --style_image_path <path_to_style_image> --serial <output path>
 ```
