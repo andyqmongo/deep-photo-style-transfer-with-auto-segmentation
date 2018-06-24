@@ -1,6 +1,6 @@
 # deep-photo-style-transfer-with-auto-segmentation
-Introduction to Multimedia, Final Project
-Working.....  
+Introduction to Multimedia, Final Project  
+Still Working.....  
 Expect to finish on Jun. 24
 
 ## Prepare
