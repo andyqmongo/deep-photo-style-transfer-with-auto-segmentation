@@ -1,7 +1,10 @@
 # deep-photo-style-transfer-with-auto-segmentation
 Introduction to Multimedia, Final Project  
 Still Working.....  
-Expect to finish on Jun. 24
+Expect to finish on Jun. 24.  
+
+## Feature
+Provide a semantic segmentation tools which is fit to deep photo style transfer. (The method is based on the [original paper](https://arxiv.org/abs/1703.07511) with slightly change)
 
 ## Prepare
 1. Clone the code and to fulfill the prequisites for both repositories. 
