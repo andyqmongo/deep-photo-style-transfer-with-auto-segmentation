@@ -23,6 +23,7 @@ python3 inference.py --img-path <path to style img> --model "pspnet" --isStyle 1
   
   p.s. meaning of style_color string: first 8 chars: whether color[i] is used or not. last char: color[j], 0<=j<=7 is the most used color in semantic segmentation  
   e.g. 111111003 -> color[0:5] is used, color[6:7] did not appear in style image segmentation. color[3] is the color with largest area in segmentation.  
+  
 2. Run semantic segmentation for content image
 ```
 python3 inference.py --img-path <path to content img> --model "pspnet" --isStyle 0 --style_color  <style_color string>
