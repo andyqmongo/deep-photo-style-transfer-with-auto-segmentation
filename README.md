@@ -19,7 +19,8 @@ git clone https://github.com/hellochick/semantic-segmentation-tensorflow
 ```
 python3 inference.py --img-path <path to style img> --model "pspnet" --isStyle 1
 ```
-  Then it will generate a segmetation image and print a string contain with 0 and 1, e.g. 111111110, which is for style_color.  
+  Then it will generate a segmetation image and print a string contain with 0 and 1, e.g. 111111110, which is for style_color.
+  p.s. meaning of 111111110: first 8 chars: whether color[i] is used or not. last char: color[j], 0<=j<=7 is the most used color in semantic segmentation
 2. Run semantic segmentation for content image
 ```
 python3 inference.py --img-path <path to content img> --model "pspnet" --isStyle 0 --style_color  <style_color string>
