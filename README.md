@@ -37,3 +37,4 @@ Working....
 ```
 python3 combine.py --content_image_path <path_to_content_image> --style_image_path <path_to_style_image> --serial <output path>
 ```
+Then it will generate a set of images after deep photo style transfer automatically
